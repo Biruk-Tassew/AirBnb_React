@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Popping', sans-serif;
+}
+.div--img{
+  width: 80px;
+  height: 60px;
+}
+.navbar{
+  box-shadow: 0px 1px 12px #cdcaca;
+  width: 100%;
+}
+
+.div--hero--image{
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+.div--hero--h2{
+  margin-top: 1%;
+  margin-left: 8%;
+  margin-bottom: -1%;
+}
+.div--hero--para{
+  margin-left: 8%;
+}
+
+.div--lower--img{
+  height: 30vh;
+  width: auto;
+  margin: 10%;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.div--lower--para{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15%;
+  font-size: small;
+}
+.FaStar{
+  color: rgb(248, 44, 112);
+}
+.div--lower--inner{
+  margin-bottom: 10%;
+
+}
+.div--lower--inner--text{
+  margin-top: -8%;
+}
+.div--span{
+  color: rgb(83, 84, 85);
+}
+.card-list{
+  display: flex;
+  overflow: scroll;
+}
+.div--lower{
+  position: relative;
+}
+
+.div--lower--badge{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: white;
+  height: 9%;
+  width: auto;
+  padding: 2%;
+  border-radius: 20px;
+}
